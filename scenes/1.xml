@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id269551">
+  <layers>
+    <layer id="id455231">
+      <actors>
+        <actor id="id757435" prototype="id667507">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id495135" prototype="id667507">
+          <attributes>
+            <point id="position">
+              <real id="x">720</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">BG</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
+    <layer id="id605754">
+      <actors>
+        <actor id="id996938" prototype="id548265">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id961759" class="NoteBehavior" enabled="true">
+              <attributes>
+                <text id="name">Note</text>
+                <text id="bundleName">Note.behavior</text>
+                <text id="note">static art work
+</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id961605" prototype="id344924">
+          <attributes>
+            <point id="position">
+              <real id="x">720</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id749480" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id115465" eventType="mouse button" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">game.attributes.id981974</text>
+                  </attributes>
+                  <predicate type="boolean">
+                    <attributes>
+                      <index id="RHS">1</index>
+                    </attributes>
+                  </predicate>
+                </condition>
+                <condition id="id359392" eventType="mouse button" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="mouse" mouseState="down">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id723079" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id981974</text>
+                    <text id="RHS">false</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id539757" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">scene.attributes.camera.origin.x</text>
+                    <text id="RHS">0</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors />
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id679747" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">171.5</real>
+              <real id="y">250.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">1</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id462845" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">160.5</real>
+              <real id="y">200.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">2</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id912299" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">145.5</real>
+              <real id="y">152.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">3</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id864781" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">167.5</real>
+              <real id="y">100.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">4</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id215491" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">184.5</real>
+              <real id="y">49.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">5</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id779525" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">380.5</real>
+              <real id="y">250.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">6</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id694412" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">362.5</real>
+              <real id="y">201.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">7</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id190714" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">365.5</real>
+              <real id="y">145.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">8</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id793725" prototype="id877220">
+          <attributes>
+            <point id="position">
+              <real id="x">356</real>
+              <real id="y">61</real>
+            </point>
+            <size id="size">
+              <real id="width">200</real>
+              <real id="height">80</real>
+            </size>
+          </attributes>
+          <behaviors>
+            <behavior id="id908156" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id830317" eventType="touch" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="released">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id231140" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">game.attributes.id981974</text>
+                    <text id="RHS">true</text>
+                  </attributes>
+                </behavior>
+                <behavior id="id940408" class="ChangeAttributeAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Attribute</text>
+                    <text id="bundleName">ChangeAttribute.behavior</text>
+                    <text id="targetAttribute">scene.attributes.camera.origin.x</text>
+                    <text id="RHS">480</text>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors />
+            </behavior>
+            <behavior id="id610790" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id435814" eventType="touch" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="inside">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id299321" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">Confirm2</image>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id969760" class="ChangeImageAction" enabled="true">
+                  <attributes>
+                    <text id="name">Change Image</text>
+                    <text id="bundleName">ChangeImage.behavior</text>
+                    <image id="image">Confirm1</image>
+                  </attributes>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id525321" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">175.5</real>
+              <real id="y">251.5</real>
+            </point>
+            <size id="size">
+              <real id="width">125</real>
+              <real id="height">27</real>
+            </size>
+            <integer id="id190489" name="ID">1</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id142905" class="NoteBehavior" enabled="true">
+              <attributes>
+                <text id="name">Note</text>
+                <text id="bundleName">Note.behavior</text>
+                <text id="note">This button is invisible in the scene, but it acts as a trigger to bring up the keyboard console. Use the self ID to specify which of the rule conditions below to activate.</text>
+              </attributes>
+            </behavior>
+            <behavior id="id123539" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Touch with Self ID 1</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id697428" eventType="touch" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="touch" conditionType="pressed">
+                    <attributes />
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id123023" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">1</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id688370" eventType="mouse button" pluginPredicateTypeIndex="0">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">self.attributes.id190489</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">1</real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id939864" class="KeyboardInputAction" enabled="true">
+                      <attributes>
+                        <text id="name">Keyboard Input</text>
+                        <text id="bundleName">KeyboardInput.behavior</text>
+                        <text id="targetAttribute">game.attributes.id710859</text>
+                        <text id="keyboardPrompt">Enter A Location</text>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                  <elseBehaviors>
+                    <behavior id="id543470" class="RuleBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Touch with Self ID 2</text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <conditions>
+                        <condition id="id711908" eventType="mouse button" pluginPredicateTypeIndex="0">
+                          <attributes>
+                            <index id="conditionType">1</index>
+                            <text id="subjectAttribute">self.attributes.id190489</text>
+                          </attributes>
+                          <predicate type="number">
+                            <attributes>
+                              <text id="operator">=</text>
+                              <real id="RHS">2</real>
+                            </attributes>
+                          </predicate>
+                        </condition>
+                      </conditions>
+                      <behaviors>
+                        <behavior id="id741150" class="KeyboardInputAction" enabled="true">
+                          <attributes>
+                            <text id="name">Keyboard Input</text>
+                            <text id="bundleName">KeyboardInput.behavior</text>
+                            <text id="targetAttribute">game.attributes.id707086</text>
+                            <text id="keyboardPrompt">Enter An Animal</text>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                      <elseBehaviors>
+                        <behavior id="id179907" class="RuleBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Touch with Self ID 3</text>
+                            <text id="bundleName">Rule.behavior</text>
+                            <real id="compoundConditionKind">0</real>
+                          </attributes>
+                          <conditions>
+                            <condition id="id704955" eventType="mouse button" pluginPredicateTypeIndex="0">
+                              <attributes>
+                                <index id="conditionType">1</index>
+                                <text id="subjectAttribute">self.attributes.id190489</text>
+                              </attributes>
+                              <predicate type="number">
+                                <attributes>
+                                  <text id="operator">=</text>
+                                  <real id="RHS">3</real>
+                                </attributes>
+                              </predicate>
+                            </condition>
+                          </conditions>
+                          <behaviors>
+                            <behavior id="id988386" class="KeyboardInputAction" enabled="true">
+                              <attributes>
+                                <text id="name">Keyboard Input</text>
+                                <text id="bundleName">KeyboardInput.behavior</text>
+                                <text id="targetAttribute">game.attributes.id388623</text>
+                                <text id="keyboardPrompt">Enter A Verb (Past Tense)</text>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                          <elseBehaviors>
+                            <behavior id="id434455" class="RuleBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">Touch with Self ID 4</text>
+                                <text id="bundleName">Rule.behavior</text>
+                                <real id="compoundConditionKind">0</real>
+                              </attributes>
+                              <conditions>
+                                <condition id="id498008" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                  <attributes>
+                                    <index id="conditionType">1</index>
+                                    <text id="subjectAttribute">self.attributes.id190489</text>
+                                  </attributes>
+                                  <predicate type="number">
+                                    <attributes>
+                                      <text id="operator">=</text>
+                                      <real id="RHS">4</real>
+                                    </attributes>
+                                  </predicate>
+                                </condition>
+                              </conditions>
+                              <behaviors>
+                                <behavior id="id580684" class="KeyboardInputAction" enabled="true">
+                                  <attributes>
+                                    <text id="name">Keyboard Input</text>
+                                    <text id="bundleName">KeyboardInput.behavior</text>
+                                    <text id="targetAttribute">game.attributes.id543157</text>
+                                    <text id="keyboardPrompt">Enter A Weapon</text>
+                                  </attributes>
+                                </behavior>
+                              </behaviors>
+                              <elseBehaviors>
+                                <behavior id="id678542" class="RuleBehavior" enabled="true">
+                                  <attributes>
+                                    <text id="name">Touch with Self ID 5</text>
+                                    <text id="bundleName">Rule.behavior</text>
+                                    <real id="compoundConditionKind">0</real>
+                                  </attributes>
+                                  <conditions>
+                                    <condition id="id696940" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                      <attributes>
+                                        <index id="conditionType">1</index>
+                                        <text id="subjectAttribute">self.attributes.id190489</text>
+                                      </attributes>
+                                      <predicate type="number">
+                                        <attributes>
+                                          <text id="operator">=</text>
+                                          <real id="RHS">5</real>
+                                        </attributes>
+                                      </predicate>
+                                    </condition>
+                                  </conditions>
+                                  <behaviors>
+                                    <behavior id="id951026" class="KeyboardInputAction" enabled="true">
+                                      <attributes>
+                                        <text id="name">Keyboard Input</text>
+                                        <text id="bundleName">KeyboardInput.behavior</text>
+                                        <text id="targetAttribute">game.attributes.id191836</text>
+                                        <text id="keyboardPrompt">Enter A Body Part</text>
+                                      </attributes>
+                                    </behavior>
+                                  </behaviors>
+                                  <elseBehaviors>
+                                    <behavior id="id539156" class="RuleBehavior" enabled="true">
+                                      <attributes>
+                                        <text id="name">Touch with Self ID 6</text>
+                                        <text id="bundleName">Rule.behavior</text>
+                                        <real id="compoundConditionKind">0</real>
+                                      </attributes>
+                                      <conditions>
+                                        <condition id="id950775" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                          <attributes>
+                                            <index id="conditionType">1</index>
+                                            <text id="subjectAttribute">self.attributes.id190489</text>
+                                          </attributes>
+                                          <predicate type="number">
+                                            <attributes>
+                                              <text id="operator">=</text>
+                                              <real id="RHS">6</real>
+                                            </attributes>
+                                          </predicate>
+                                        </condition>
+                                      </conditions>
+                                      <behaviors>
+                                        <behavior id="id981776" class="KeyboardInputAction" enabled="true">
+                                          <attributes>
+                                            <text id="name">Keyboard Input</text>
+                                            <text id="bundleName">KeyboardInput.behavior</text>
+                                            <text id="targetAttribute">game.attributes.id617635</text>
+                                            <text id="keyboardPrompt">Enter A Person</text>
+                                          </attributes>
+                                        </behavior>
+                                      </behaviors>
+                                      <elseBehaviors>
+                                        <behavior id="id504150" class="RuleBehavior" enabled="true">
+                                          <attributes>
+                                            <text id="name">Touch with Self ID 7</text>
+                                            <text id="bundleName">Rule.behavior</text>
+                                            <real id="compoundConditionKind">0</real>
+                                          </attributes>
+                                          <conditions>
+                                            <condition id="id488668" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                              <attributes>
+                                                <index id="conditionType">1</index>
+                                                <text id="subjectAttribute">self.attributes.id190489</text>
+                                              </attributes>
+                                              <predicate type="number">
+                                                <attributes>
+                                                  <text id="operator">=</text>
+                                                  <real id="RHS">7</real>
+                                                </attributes>
+                                              </predicate>
+                                            </condition>
+                                          </conditions>
+                                          <behaviors>
+                                            <behavior id="id603250" class="KeyboardInputAction" enabled="true">
+                                              <attributes>
+                                                <text id="name">Keyboard Input</text>
+                                                <text id="bundleName">KeyboardInput.behavior</text>
+                                                <text id="targetAttribute">game.attributes.id613758</text>
+                                                <text id="keyboardPrompt">Enter A Verb</text>
+                                              </attributes>
+                                            </behavior>
+                                          </behaviors>
+                                          <elseBehaviors>
+                                            <behavior id="id685123" class="RuleBehavior" enabled="true">
+                                              <attributes>
+                                                <text id="name">Touch with Self ID 8</text>
+                                                <text id="bundleName">Rule.behavior</text>
+                                                <real id="compoundConditionKind">0</real>
+                                              </attributes>
+                                              <conditions>
+                                                <condition id="id681206" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                                  <attributes>
+                                                    <index id="conditionType">1</index>
+                                                    <text id="subjectAttribute">self.attributes.id190489</text>
+                                                  </attributes>
+                                                  <predicate type="number">
+                                                    <attributes>
+                                                      <text id="operator">=</text>
+                                                      <real id="RHS">8</real>
+                                                    </attributes>
+                                                  </predicate>
+                                                </condition>
+                                              </conditions>
+                                              <behaviors>
+                                                <behavior id="id357575" class="KeyboardInputAction" enabled="true">
+                                                  <attributes>
+                                                    <text id="name">Keyboard Input</text>
+                                                    <text id="bundleName">KeyboardInput.behavior</text>
+                                                    <text id="targetAttribute">game.attributes.id887439</text>
+                                                    <text id="keyboardPrompt">Enter A Food</text>
+                                                  </attributes>
+                                                </behavior>
+                                              </behaviors>
+                                            </behavior>
+                                          </elseBehaviors>
+                                        </behavior>
+                                      </elseBehaviors>
+                                    </behavior>
+                                  </elseBehaviors>
+                                </behavior>
+                              </elseBehaviors>
+                            </behavior>
+                          </elseBehaviors>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </behaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id268819" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">164</real>
+              <real id="y">200.5</real>
+            </point>
+            <size id="size">
+              <real id="width">132</real>
+              <real id="height">27</real>
+            </size>
+            <integer id="id190489" name="ID">2</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id817068" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">158.5</real>
+              <real id="y">152</real>
+            </point>
+            <size id="size">
+              <real id="width">143</real>
+              <real id="height">30</real>
+            </size>
+            <integer id="id190489" name="ID">3</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id947754" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">176</real>
+              <real id="y">103</real>
+            </point>
+            <size id="size">
+              <real id="width">138</real>
+              <real id="height">30</real>
+            </size>
+            <integer id="id190489" name="ID">4</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id807268" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">190.5</real>
+              <real id="y">51</real>
+            </point>
+            <size id="size">
+              <real id="width">131</real>
+              <real id="height">28</real>
+            </size>
+            <integer id="id190489" name="ID">5</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id215669" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">389.5</real>
+              <real id="y">251.5</real>
+            </point>
+            <size id="size">
+              <real id="width">125</real>
+              <real id="height">27</real>
+            </size>
+            <integer id="id190489" name="ID">6</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id440769" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">370.5</real>
+              <real id="y">201</real>
+            </point>
+            <size id="size">
+              <real id="width">135</real>
+              <real id="height">28</real>
+            </size>
+            <integer id="id190489" name="ID">7</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id692673" prototype="id250849">
+          <attributes>
+            <point id="position">
+              <real id="x">373.5</real>
+              <real id="y">148</real>
+            </point>
+            <size id="size">
+              <real id="width">135</real>
+              <real id="height">28</real>
+            </size>
+            <integer id="id190489" name="ID">8</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id678032" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">672.5</real>
+              <real id="y">303.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">1</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id344265" class="NoteBehavior" enabled="true">
+              <attributes>
+                <text id="name">Note</text>
+                <text id="bundleName">Note.behavior</text>
+                <text id="note">Display the corresponding text from game attributes, using self.ID to designate which attributes to reference.</text>
+              </attributes>
+            </behavior>
+            <behavior id="id464362" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">1</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id118831" eventType="mouse button" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id604926</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">1</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id877370" class="DisplayTextBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Display Text</text>
+                    <text id="bundleName">DisplayText.behavior</text>
+                    <text id="text">
+                      <expression>
+                        <reference keypath="game.attributes.id710859" />
+                      </expression>
+                    </text>
+                    <text id="font">Arial</text>
+                    <real id="size">12</real>
+                    <index id="alignment">0</index>
+                    <boolean id="wrap">true</boolean>
+                    <color id="color">
+                      <real id="red">0.229912</real>
+                      <real id="green">0.126366</real>
+                      <real id="blue">0.0631259</real>
+                      <real id="alpha">1</real>
+                    </color>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id909458" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">2</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id217318" eventType="mouse button" pluginPredicateTypeIndex="0">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">self.attributes.id604926</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">2</real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id191448" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">
+                          <expression>
+                            <reference keypath="game.attributes.id707086" />
+                          </expression>
+                        </text>
+                        <text id="font">Arial</text>
+                        <real id="size">12</real>
+                        <index id="alignment">0</index>
+                        <boolean id="wrap">true</boolean>
+                        <color id="color">
+                          <real id="red">0.229912</real>
+                          <real id="green">0.126366</real>
+                          <real id="blue">0.0631259</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                  <elseBehaviors>
+                    <behavior id="id324537" class="RuleBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">3</text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <conditions>
+                        <condition id="id222186" eventType="mouse button" pluginPredicateTypeIndex="0">
+                          <attributes>
+                            <index id="conditionType">1</index>
+                            <text id="subjectAttribute">self.attributes.id604926</text>
+                          </attributes>
+                          <predicate type="number">
+                            <attributes>
+                              <text id="operator">=</text>
+                              <real id="RHS">3</real>
+                            </attributes>
+                          </predicate>
+                        </condition>
+                      </conditions>
+                      <behaviors>
+                        <behavior id="id337394" class="DisplayTextBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Display Text</text>
+                            <text id="bundleName">DisplayText.behavior</text>
+                            <text id="text">
+                              <expression>
+                                <reference keypath="game.attributes.id388623" />
+                              </expression>
+                            </text>
+                            <text id="font">Arial</text>
+                            <real id="size">12</real>
+                            <index id="alignment">0</index>
+                            <boolean id="wrap">true</boolean>
+                            <color id="color">
+                              <real id="red">0.229912</real>
+                              <real id="green">0.126366</real>
+                              <real id="blue">0.0631259</real>
+                              <real id="alpha">1</real>
+                            </color>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                      <elseBehaviors>
+                        <behavior id="id647898" class="RuleBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">4</text>
+                            <text id="bundleName">Rule.behavior</text>
+                            <real id="compoundConditionKind">0</real>
+                          </attributes>
+                          <conditions>
+                            <condition id="id788772" eventType="mouse button" pluginPredicateTypeIndex="0">
+                              <attributes>
+                                <index id="conditionType">1</index>
+                                <text id="subjectAttribute">self.attributes.id604926</text>
+                              </attributes>
+                              <predicate type="number">
+                                <attributes>
+                                  <text id="operator">=</text>
+                                  <real id="RHS">4</real>
+                                </attributes>
+                              </predicate>
+                            </condition>
+                          </conditions>
+                          <behaviors>
+                            <behavior id="id497652" class="DisplayTextBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">Display Text</text>
+                                <text id="bundleName">DisplayText.behavior</text>
+                                <text id="text">
+                                  <expression>
+                                    <reference keypath="game.attributes.id543157" />
+                                  </expression>
+                                </text>
+                                <text id="font">Arial</text>
+                                <real id="size">12</real>
+                                <index id="alignment">0</index>
+                                <boolean id="wrap">true</boolean>
+                                <color id="color">
+                                  <real id="red">0.229912</real>
+                                  <real id="green">0.126366</real>
+                                  <real id="blue">0.0631259</real>
+                                  <real id="alpha">1</real>
+                                </color>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                          <elseBehaviors>
+                            <behavior id="id941670" class="RuleBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">5</text>
+                                <text id="bundleName">Rule.behavior</text>
+                                <real id="compoundConditionKind">0</real>
+                              </attributes>
+                              <conditions>
+                                <condition id="id775538" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                  <attributes>
+                                    <index id="conditionType">1</index>
+                                    <text id="subjectAttribute">self.attributes.id604926</text>
+                                  </attributes>
+                                  <predicate type="number">
+                                    <attributes>
+                                      <text id="operator">=</text>
+                                      <real id="RHS">5</real>
+                                    </attributes>
+                                  </predicate>
+                                </condition>
+                              </conditions>
+                              <behaviors>
+                                <behavior id="id997963" class="DisplayTextBehavior" enabled="true">
+                                  <attributes>
+                                    <text id="name">Display Text</text>
+                                    <text id="bundleName">DisplayText.behavior</text>
+                                    <text id="text">
+                                      <expression>
+                                        <reference keypath="game.attributes.id191836" />
+                                      </expression>
+                                    </text>
+                                    <text id="font">Arial</text>
+                                    <real id="size">12</real>
+                                    <index id="alignment">0</index>
+                                    <boolean id="wrap">true</boolean>
+                                    <color id="color">
+                                      <real id="red">0.229912</real>
+                                      <real id="green">0.126366</real>
+                                      <real id="blue">0.0631259</real>
+                                      <real id="alpha">1</real>
+                                    </color>
+                                  </attributes>
+                                </behavior>
+                              </behaviors>
+                              <elseBehaviors>
+                                <behavior id="id826117" class="RuleBehavior" enabled="true">
+                                  <attributes>
+                                    <text id="name">6</text>
+                                    <text id="bundleName">Rule.behavior</text>
+                                    <real id="compoundConditionKind">0</real>
+                                  </attributes>
+                                  <conditions>
+                                    <condition id="id885207" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                      <attributes>
+                                        <index id="conditionType">1</index>
+                                        <text id="subjectAttribute">self.attributes.id604926</text>
+                                      </attributes>
+                                      <predicate type="number">
+                                        <attributes>
+                                          <text id="operator">=</text>
+                                          <real id="RHS">6</real>
+                                        </attributes>
+                                      </predicate>
+                                    </condition>
+                                  </conditions>
+                                  <behaviors>
+                                    <behavior id="id269869" class="DisplayTextBehavior" enabled="true">
+                                      <attributes>
+                                        <text id="name">Display Text</text>
+                                        <text id="bundleName">DisplayText.behavior</text>
+                                        <text id="text">
+                                          <expression>
+                                            <reference keypath="game.attributes.id617635" />
+                                          </expression>
+                                        </text>
+                                        <text id="font">Arial</text>
+                                        <real id="size">12</real>
+                                        <index id="alignment">0</index>
+                                        <boolean id="wrap">true</boolean>
+                                        <color id="color">
+                                          <real id="red">0.229912</real>
+                                          <real id="green">0.126366</real>
+                                          <real id="blue">0.0631259</real>
+                                          <real id="alpha">1</real>
+                                        </color>
+                                      </attributes>
+                                    </behavior>
+                                  </behaviors>
+                                  <elseBehaviors>
+                                    <behavior id="id733721" class="RuleBehavior" enabled="true">
+                                      <attributes>
+                                        <text id="name">7</text>
+                                        <text id="bundleName">Rule.behavior</text>
+                                        <real id="compoundConditionKind">0</real>
+                                      </attributes>
+                                      <conditions>
+                                        <condition id="id793681" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                          <attributes>
+                                            <index id="conditionType">1</index>
+                                            <text id="subjectAttribute">self.attributes.id604926</text>
+                                          </attributes>
+                                          <predicate type="number">
+                                            <attributes>
+                                              <text id="operator">=</text>
+                                              <real id="RHS">7</real>
+                                            </attributes>
+                                          </predicate>
+                                        </condition>
+                                      </conditions>
+                                      <behaviors>
+                                        <behavior id="id501169" class="DisplayTextBehavior" enabled="true">
+                                          <attributes>
+                                            <text id="name">Display Text</text>
+                                            <text id="bundleName">DisplayText.behavior</text>
+                                            <text id="text">
+                                              <expression>
+                                                <reference keypath="game.attributes.id613758" />
+                                              </expression>
+                                            </text>
+                                            <text id="font">Arial</text>
+                                            <real id="size">12</real>
+                                            <index id="alignment">0</index>
+                                            <boolean id="wrap">true</boolean>
+                                            <color id="color">
+                                              <real id="red">0.229912</real>
+                                              <real id="green">0.126366</real>
+                                              <real id="blue">0.0631259</real>
+                                              <real id="alpha">1</real>
+                                            </color>
+                                          </attributes>
+                                        </behavior>
+                                      </behaviors>
+                                      <elseBehaviors>
+                                        <behavior id="id382088" class="RuleBehavior" enabled="true">
+                                          <attributes>
+                                            <text id="name">8</text>
+                                            <text id="bundleName">Rule.behavior</text>
+                                            <real id="compoundConditionKind">0</real>
+                                          </attributes>
+                                          <conditions>
+                                            <condition id="id514079" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                              <attributes>
+                                                <index id="conditionType">1</index>
+                                                <text id="subjectAttribute">self.attributes.id604926</text>
+                                              </attributes>
+                                              <predicate type="number">
+                                                <attributes>
+                                                  <text id="operator">=</text>
+                                                  <real id="RHS">8</real>
+                                                </attributes>
+                                              </predicate>
+                                            </condition>
+                                          </conditions>
+                                          <behaviors>
+                                            <behavior id="id326545" class="DisplayTextBehavior" enabled="true">
+                                              <attributes>
+                                                <text id="name">Display Text</text>
+                                                <text id="bundleName">DisplayText.behavior</text>
+                                                <text id="text">
+                                                  <expression>
+                                                    <reference keypath="game.attributes.id887439" />
+                                                  </expression>
+                                                </text>
+                                                <text id="font">Arial</text>
+                                                <real id="size">12</real>
+                                                <index id="alignment">0</index>
+                                                <boolean id="wrap">true</boolean>
+                                                <color id="color">
+                                                  <real id="red">0.229912</real>
+                                                  <real id="green">0.126366</real>
+                                                  <real id="blue">0.0631259</real>
+                                                  <real id="alpha">1</real>
+                                                </color>
+                                              </attributes>
+                                            </behavior>
+                                          </behaviors>
+                                        </behavior>
+                                      </elseBehaviors>
+                                    </behavior>
+                                  </elseBehaviors>
+                                </behavior>
+                              </elseBehaviors>
+                            </behavior>
+                          </elseBehaviors>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id330808" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">549.5</real>
+              <real id="y">280.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">2</integer>
+          </attributes>
+          <behaviors>
+            <behavior id="id331861" class="NoteBehavior" enabled="true">
+              <attributes>
+                <text id="name">Note</text>
+                <text id="bundleName">Note.behavior</text>
+                <text id="note">Display the corresponding text from game attributes, using self.ID to designate which attributes to reference.</text>
+              </attributes>
+            </behavior>
+            <behavior id="id507325" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">1</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id130527" eventType="mouse button" pluginPredicateTypeIndex="0">
+                  <attributes>
+                    <index id="conditionType">1</index>
+                    <text id="subjectAttribute">self.attributes.id604926</text>
+                  </attributes>
+                  <predicate type="number">
+                    <attributes>
+                      <text id="operator">=</text>
+                      <real id="RHS">1</real>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id820028" class="DisplayTextBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Display Text</text>
+                    <text id="bundleName">DisplayText.behavior</text>
+                    <text id="text">
+                      <expression>
+                        <reference keypath="game.attributes.id710859" />
+                      </expression>
+                    </text>
+                    <text id="font">Arial</text>
+                    <real id="size">12</real>
+                    <index id="alignment">0</index>
+                    <boolean id="wrap">true</boolean>
+                    <color id="color">
+                      <real id="red">0.229912</real>
+                      <real id="green">0.126366</real>
+                      <real id="blue">0.0631259</real>
+                      <real id="alpha">1</real>
+                    </color>
+                  </attributes>
+                </behavior>
+              </behaviors>
+              <elseBehaviors>
+                <behavior id="id336972" class="RuleBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">2</text>
+                    <text id="bundleName">Rule.behavior</text>
+                    <real id="compoundConditionKind">0</real>
+                  </attributes>
+                  <conditions>
+                    <condition id="id846771" eventType="mouse button" pluginPredicateTypeIndex="0">
+                      <attributes>
+                        <index id="conditionType">1</index>
+                        <text id="subjectAttribute">self.attributes.id604926</text>
+                      </attributes>
+                      <predicate type="number">
+                        <attributes>
+                          <text id="operator">=</text>
+                          <real id="RHS">2</real>
+                        </attributes>
+                      </predicate>
+                    </condition>
+                  </conditions>
+                  <behaviors>
+                    <behavior id="id460314" class="DisplayTextBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">Display Text</text>
+                        <text id="bundleName">DisplayText.behavior</text>
+                        <text id="text">
+                          <expression>
+                            <reference keypath="game.attributes.id707086" />
+                          </expression>
+                        </text>
+                        <text id="font">Arial</text>
+                        <real id="size">12</real>
+                        <index id="alignment">0</index>
+                        <boolean id="wrap">true</boolean>
+                        <color id="color">
+                          <real id="red">0.229912</real>
+                          <real id="green">0.126366</real>
+                          <real id="blue">0.0631259</real>
+                          <real id="alpha">1</real>
+                        </color>
+                      </attributes>
+                    </behavior>
+                  </behaviors>
+                  <elseBehaviors>
+                    <behavior id="id770756" class="RuleBehavior" enabled="true">
+                      <attributes>
+                        <text id="name">3</text>
+                        <text id="bundleName">Rule.behavior</text>
+                        <real id="compoundConditionKind">0</real>
+                      </attributes>
+                      <conditions>
+                        <condition id="id577287" eventType="mouse button" pluginPredicateTypeIndex="0">
+                          <attributes>
+                            <index id="conditionType">1</index>
+                            <text id="subjectAttribute">self.attributes.id604926</text>
+                          </attributes>
+                          <predicate type="number">
+                            <attributes>
+                              <text id="operator">=</text>
+                              <real id="RHS">3</real>
+                            </attributes>
+                          </predicate>
+                        </condition>
+                      </conditions>
+                      <behaviors>
+                        <behavior id="id747519" class="DisplayTextBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">Display Text</text>
+                            <text id="bundleName">DisplayText.behavior</text>
+                            <text id="text">
+                              <expression>
+                                <reference keypath="game.attributes.id388623" />
+                              </expression>
+                            </text>
+                            <text id="font">Arial</text>
+                            <real id="size">12</real>
+                            <index id="alignment">0</index>
+                            <boolean id="wrap">true</boolean>
+                            <color id="color">
+                              <real id="red">0.229912</real>
+                              <real id="green">0.126366</real>
+                              <real id="blue">0.0631259</real>
+                              <real id="alpha">1</real>
+                            </color>
+                          </attributes>
+                        </behavior>
+                      </behaviors>
+                      <elseBehaviors>
+                        <behavior id="id308322" class="RuleBehavior" enabled="true">
+                          <attributes>
+                            <text id="name">4</text>
+                            <text id="bundleName">Rule.behavior</text>
+                            <real id="compoundConditionKind">0</real>
+                          </attributes>
+                          <conditions>
+                            <condition id="id325986" eventType="mouse button" pluginPredicateTypeIndex="0">
+                              <attributes>
+                                <index id="conditionType">1</index>
+                                <text id="subjectAttribute">self.attributes.id604926</text>
+                              </attributes>
+                              <predicate type="number">
+                                <attributes>
+                                  <text id="operator">=</text>
+                                  <real id="RHS">4</real>
+                                </attributes>
+                              </predicate>
+                            </condition>
+                          </conditions>
+                          <behaviors>
+                            <behavior id="id260224" class="DisplayTextBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">Display Text</text>
+                                <text id="bundleName">DisplayText.behavior</text>
+                                <text id="text">
+                                  <expression>
+                                    <reference keypath="game.attributes.id543157" />
+                                  </expression>
+                                </text>
+                                <text id="font">Arial</text>
+                                <real id="size">12</real>
+                                <index id="alignment">0</index>
+                                <boolean id="wrap">true</boolean>
+                                <color id="color">
+                                  <real id="red">0.229912</real>
+                                  <real id="green">0.126366</real>
+                                  <real id="blue">0.0631259</real>
+                                  <real id="alpha">1</real>
+                                </color>
+                              </attributes>
+                            </behavior>
+                          </behaviors>
+                          <elseBehaviors>
+                            <behavior id="id464855" class="RuleBehavior" enabled="true">
+                              <attributes>
+                                <text id="name">5</text>
+                                <text id="bundleName">Rule.behavior</text>
+                                <real id="compoundConditionKind">0</real>
+                              </attributes>
+                              <conditions>
+                                <condition id="id788876" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                  <attributes>
+                                    <index id="conditionType">1</index>
+                                    <text id="subjectAttribute">self.attributes.id604926</text>
+                                  </attributes>
+                                  <predicate type="number">
+                                    <attributes>
+                                      <text id="operator">=</text>
+                                      <real id="RHS">5</real>
+                                    </attributes>
+                                  </predicate>
+                                </condition>
+                              </conditions>
+                              <behaviors>
+                                <behavior id="id810557" class="DisplayTextBehavior" enabled="true">
+                                  <attributes>
+                                    <text id="name">Display Text</text>
+                                    <text id="bundleName">DisplayText.behavior</text>
+                                    <text id="text">
+                                      <expression>
+                                        <reference keypath="game.attributes.id191836" />
+                                      </expression>
+                                    </text>
+                                    <text id="font">Arial</text>
+                                    <real id="size">12</real>
+                                    <index id="alignment">0</index>
+                                    <boolean id="wrap">true</boolean>
+                                    <color id="color">
+                                      <real id="red">0.229912</real>
+                                      <real id="green">0.126366</real>
+                                      <real id="blue">0.0631259</real>
+                                      <real id="alpha">1</real>
+                                    </color>
+                                  </attributes>
+                                </behavior>
+                              </behaviors>
+                              <elseBehaviors>
+                                <behavior id="id452197" class="RuleBehavior" enabled="true">
+                                  <attributes>
+                                    <text id="name">6</text>
+                                    <text id="bundleName">Rule.behavior</text>
+                                    <real id="compoundConditionKind">0</real>
+                                  </attributes>
+                                  <conditions>
+                                    <condition id="id277259" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                      <attributes>
+                                        <index id="conditionType">1</index>
+                                        <text id="subjectAttribute">self.attributes.id604926</text>
+                                      </attributes>
+                                      <predicate type="number">
+                                        <attributes>
+                                          <text id="operator">=</text>
+                                          <real id="RHS">6</real>
+                                        </attributes>
+                                      </predicate>
+                                    </condition>
+                                  </conditions>
+                                  <behaviors>
+                                    <behavior id="id500681" class="DisplayTextBehavior" enabled="true">
+                                      <attributes>
+                                        <text id="name">Display Text</text>
+                                        <text id="bundleName">DisplayText.behavior</text>
+                                        <text id="text">
+                                          <expression>
+                                            <reference keypath="game.attributes.id617635" />
+                                          </expression>
+                                        </text>
+                                        <text id="font">Arial</text>
+                                        <real id="size">12</real>
+                                        <index id="alignment">0</index>
+                                        <boolean id="wrap">true</boolean>
+                                        <color id="color">
+                                          <real id="red">0.229912</real>
+                                          <real id="green">0.126366</real>
+                                          <real id="blue">0.0631259</real>
+                                          <real id="alpha">1</real>
+                                        </color>
+                                      </attributes>
+                                    </behavior>
+                                  </behaviors>
+                                  <elseBehaviors>
+                                    <behavior id="id490622" class="RuleBehavior" enabled="true">
+                                      <attributes>
+                                        <text id="name">7</text>
+                                        <text id="bundleName">Rule.behavior</text>
+                                        <real id="compoundConditionKind">0</real>
+                                      </attributes>
+                                      <conditions>
+                                        <condition id="id238803" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                          <attributes>
+                                            <index id="conditionType">1</index>
+                                            <text id="subjectAttribute">self.attributes.id604926</text>
+                                          </attributes>
+                                          <predicate type="number">
+                                            <attributes>
+                                              <text id="operator">=</text>
+                                              <real id="RHS">7</real>
+                                            </attributes>
+                                          </predicate>
+                                        </condition>
+                                      </conditions>
+                                      <behaviors>
+                                        <behavior id="id480494" class="DisplayTextBehavior" enabled="true">
+                                          <attributes>
+                                            <text id="name">Display Text</text>
+                                            <text id="bundleName">DisplayText.behavior</text>
+                                            <text id="text">
+                                              <expression>
+                                                <reference keypath="game.attributes.id613758" />
+                                              </expression>
+                                            </text>
+                                            <text id="font">Arial</text>
+                                            <real id="size">12</real>
+                                            <index id="alignment">0</index>
+                                            <boolean id="wrap">true</boolean>
+                                            <color id="color">
+                                              <real id="red">0.229912</real>
+                                              <real id="green">0.126366</real>
+                                              <real id="blue">0.0631259</real>
+                                              <real id="alpha">1</real>
+                                            </color>
+                                          </attributes>
+                                        </behavior>
+                                      </behaviors>
+                                      <elseBehaviors>
+                                        <behavior id="id750553" class="RuleBehavior" enabled="true">
+                                          <attributes>
+                                            <text id="name">8</text>
+                                            <text id="bundleName">Rule.behavior</text>
+                                            <real id="compoundConditionKind">0</real>
+                                          </attributes>
+                                          <conditions>
+                                            <condition id="id986351" eventType="mouse button" pluginPredicateTypeIndex="0">
+                                              <attributes>
+                                                <index id="conditionType">1</index>
+                                                <text id="subjectAttribute">self.attributes.id604926</text>
+                                              </attributes>
+                                              <predicate type="number">
+                                                <attributes>
+                                                  <text id="operator">=</text>
+                                                  <real id="RHS">8</real>
+                                                </attributes>
+                                              </predicate>
+                                            </condition>
+                                          </conditions>
+                                          <behaviors>
+                                            <behavior id="id383217" class="DisplayTextBehavior" enabled="true">
+                                              <attributes>
+                                                <text id="name">Display Text</text>
+                                                <text id="bundleName">DisplayText.behavior</text>
+                                                <text id="text">
+                                                  <expression>
+                                                    <reference keypath="game.attributes.id887439" />
+                                                  </expression>
+                                                </text>
+                                                <text id="font">Arial</text>
+                                                <real id="size">12</real>
+                                                <index id="alignment">0</index>
+                                                <boolean id="wrap">true</boolean>
+                                                <color id="color">
+                                                  <real id="red">0.229912</real>
+                                                  <real id="green">0.126366</real>
+                                                  <real id="blue">0.0631259</real>
+                                                  <real id="alpha">1</real>
+                                                </color>
+                                              </attributes>
+                                            </behavior>
+                                          </behaviors>
+                                        </behavior>
+                                      </elseBehaviors>
+                                    </behavior>
+                                  </elseBehaviors>
+                                </behavior>
+                              </elseBehaviors>
+                            </behavior>
+                          </elseBehaviors>
+                        </behavior>
+                      </elseBehaviors>
+                    </behavior>
+                  </elseBehaviors>
+                </behavior>
+              </elseBehaviors>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id918757" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">682.5</real>
+              <real id="y">279.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">3</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id186120" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">647.5</real>
+              <real id="y">210.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">4</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id661777" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">770.5</real>
+              <real id="y">188.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">5</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id300626" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">550.5</real>
+              <real id="y">187.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">2</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id992811" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">773.5</real>
+              <real id="y">142.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">6</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id482247" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">592.5</real>
+              <real id="y">119.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">7</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id754012" prototype="id683865">
+          <attributes>
+            <point id="position">
+              <real id="x">548.5</real>
+              <real id="y">50.5</real>
+            </point>
+            <size id="size">
+              <real id="width">110</real>
+              <real id="height">24</real>
+            </size>
+            <integer id="id604926" name="ID">8</integer>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">TextBase</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">RADLibs</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">960</real>
+      <real id="height">320</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">480</real>
+        <real id="height">320</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">400</real>
+        <real id="height">260</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
