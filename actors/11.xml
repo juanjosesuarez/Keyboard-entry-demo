@@ -8,8 +8,8 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">80</real>
-      <real id="height">80</real>
+      <real id="width">1350</real>
+      <real id="height">1226</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
@@ -18,7 +18,7 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Buddy1</image>
+    <image id="image">44jin47u2t</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
@@ -259,8 +259,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
-        <integer id="tileWidth" name="tileWidth">0</integer>
-        <integer id="tileHeight" name="tileHeight">0</integer>
+        <integer id="tileWidth" name="tileWidth">1350</integer>
+        <integer id="tileHeight" name="tileHeight">1226</integer>
       </attributes>
     </graphics>
     <motion>

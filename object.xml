@@ -21,6 +21,8 @@ CharacterName and Outdoors shows how you can name your in game hero something un
     <actor id="id592727" />
     <actor id="id469187" />
     <actor id="id348576" />
+    <actor id="id674597" />
+    <actor id="id464375" />
   </prototypes>
   <plugins>
     <attributes id="kiip">

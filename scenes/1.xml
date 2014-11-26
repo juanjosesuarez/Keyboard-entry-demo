@@ -3,27 +3,6 @@
   <layers>
     <layer id="id455231">
       <actors>
-        <actor id="id757435" prototype="id667507">
-          <attributes>
-            <point id="position">
-              <real id="x">240</real>
-              <real id="y">160</real>
-            </point>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
         <actor id="id495135" prototype="id667507">
           <attributes>
             <point id="position">
@@ -32,45 +11,6 @@
             </point>
             <angle id="rotation">0</angle>
           </attributes>
-          <aspects>
-            <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-      </actors>
-      <attributes>
-        <text id="name">BG</text>
-        <boolean id="scrollable">false</boolean>
-      </attributes>
-    </layer>
-    <layer id="id605754">
-      <actors>
-        <actor id="id996938" prototype="id548265">
-          <attributes>
-            <point id="position">
-              <real id="x">240</real>
-              <real id="y">160</real>
-            </point>
-            <angle id="rotation">0</angle>
-          </attributes>
-          <behaviors>
-            <behavior id="id961759" class="NoteBehavior" enabled="true">
-              <attributes>
-                <text id="name">Note</text>
-                <text id="bundleName">Note.behavior</text>
-                <text id="note">static art work
-</text>
-              </attributes>
-            </behavior>
-          </behaviors>
           <aspects>
             <graphics>
               <attributes>
@@ -126,7 +66,7 @@
                     <text id="name">Change Attribute</text>
                     <text id="bundleName">ChangeAttribute.behavior</text>
                     <text id="targetAttribute">game.attributes.id981974</text>
-                    <text id="RHS">false</text>
+                    <text id="RHS">true</text>
                   </attributes>
                 </behavior>
                 <behavior id="id539757" class="ChangeAttributeAction" enabled="true">
@@ -139,6 +79,66 @@
                 </behavior>
               </behaviors>
               <elseBehaviors />
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id757435" prototype="id667507">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">BG</text>
+        <boolean id="scrollable">false</boolean>
+      </attributes>
+    </layer>
+    <layer id="id605754">
+      <actors>
+        <actor id="id996938" prototype="id548265">
+          <attributes>
+            <point id="position">
+              <real id="x">240</real>
+              <real id="y">160</real>
+            </point>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <behaviors>
+            <behavior id="id961759" class="NoteBehavior" enabled="true">
+              <attributes>
+                <text id="name">Note</text>
+                <text id="bundleName">Note.behavior</text>
+                <text id="note">static art work
+</text>
+              </attributes>
             </behavior>
           </behaviors>
           <aspects>
@@ -364,6 +364,7 @@
               <real id="width">200</real>
               <real id="height">80</real>
             </size>
+            <image id="image">PLAY-IMAGE</image>
           </attributes>
           <behaviors>
             <behavior id="id908156" class="RuleBehavior" enabled="true">

@@ -38,6 +38,12 @@
     <image name="HeroBG">
       <file name="HeroBG.png" size="42301" />
     </image>
+    <image name="PLAY-IMAGE">
+      <file name="PLAY-IMAGE.png" size="18578" />
+    </image>
+    <image name="44jin47u2t">
+      <file name="44jin47u2t.png" size="902349" />
+    </image>
   </images>
   <behaviors />
 </assets>
